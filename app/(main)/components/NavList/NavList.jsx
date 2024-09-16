@@ -5,19 +5,24 @@ const NavList = () => {
   const navList = [
     {
       id: 1,
-      label: "コナンメインテーマ",
+      label: "はじめに",
       link: "/",
       icon: <MdOutlineQueueMusic className="size-7" />,
     },
     {
       id: 2,
+      label: "コナンメインテーマ",
+      link: "/conan",
+      icon: <MdOutlineQueueMusic className="size-7" />,
+    },
+    {
+      id: 3,
       label: "リコーダー",
       link: "/recorder",
       icon: <MdOutlineQueueMusic className="size-7" />,
     },
-
     {
-      id: 3,
+      id: 4,
       label: "けんばん",
       link: "/kenban",
       icon: <MdOutlineQueueMusic className="size-7" />,
