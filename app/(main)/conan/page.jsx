@@ -1,15 +1,17 @@
 "use client";
-// import a from "../components/video.mp4";
+import Image from "next/image";
 
 const page = () => {
+  const imagePath_1 = "/kenban_1.jpg";
+  const imagePath_2 = "/kenban_2.jpg";
   return (
     <div>
-      <h1>ここはコナン</h1>
-      <video width="320" height="240" controls preload="none">
-        <source src="./test.mp4" type="video/mp4" />
-        <track src="./test.mp4" kind="subtitles" srcLang="en" label="English" />
-        Your browser does not support the video tag.
-      </video>
+      <h1 className="rounded-full bg-gray-800 text-white flex justify-center my-4">
+        コナンメインテーマ　けんばんがくふ
+      </h1>
+
+      <Image src={imagePath_1} width={300} height={200} alt={"ga"} />
+      <Image src={imagePath_2} width={300} height={200} alt={"ga"} />
     </div>
   );
 };
