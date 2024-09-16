@@ -1,9 +1,9 @@
-const recorder = () => {
+const page = () => {
   return (
     <div>
-      <h1>ここはリコーダー</h1>
+      <h1>ここは、リコーダーのよてい</h1>
     </div>
   );
 };
 
-export default recorder;
+export default page;

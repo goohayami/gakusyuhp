@@ -1,11 +1,6 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-// interface NavItemPros {
-//   label: string;
-//   link: string;
-//   icon: React.ReactNode;
-// }
 
 const NavItem = ({ label, link, icon }) => {
   const pathname = usePathname();
