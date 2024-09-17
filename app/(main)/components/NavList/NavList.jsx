@@ -9,22 +9,23 @@ const NavList = () => {
       link: "/",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
+
     {
       id: 2,
-      label: "名探偵コナン（けんばんがくふ）",
-      link: "/conan",
-      icon: <MdOutlineQueueMusic className="size-5" />,
-    },
-    {
-      id: 3,
-      label: "名探偵コナン（えんそう）",
+      label: "名探偵コナン メインテーマ（けんばん）",
       link: "/youtube",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
     {
-      id: 4,
-      label: "リコーダー（よろこびのうた）",
+      id: 3,
+      label: "よろこびのうた（リコーダー）",
       link: "/recorder",
+      icon: <MdOutlineQueueMusic className="size-5" />,
+    },
+    {
+      id: 4,
+      label: "名探偵コナン（けんばんがくふ）",
+      link: "/conan",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
   ];

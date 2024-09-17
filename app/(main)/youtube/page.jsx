@@ -7,7 +7,7 @@ const youtube = () => {
   return (
     <div>
       <h1 className="rounded-full bg-gray-800 text-white flex justify-center my-4 py-2">
-        コナンメインテーマ　がっそうのお手本
+        名探偵コナン メインテーマ
       </h1>
       <div>
         <YouTubeEmbed

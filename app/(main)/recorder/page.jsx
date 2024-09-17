@@ -13,9 +13,12 @@ const recorder = () => {
           className="flex justify-center"
           videoid="JHk-nrMZZmA"
           width={700}
-          height={700}
+          height={450}
           params="controls=1"
         />
+        <p className="text-gray-800 font-bold flex justify-center mb-2">
+          よろこびのうた　がくふ（リコーダー）
+        </p>
         <Image src={imagePath_1} width={700} height={500} alt={"楽譜"} />
       </div>
     </div>
