@@ -11,13 +11,13 @@ const NavList = () => {
     },
     {
       id: 2,
-      label: "名探偵コナン（けんばん）",
+      label: "名探偵コナン \n（けんばん）",
       link: "/conan",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
     {
       id: 3,
-      label: "名探偵コナン（お手本）",
+      label: "名探偵コナン \n（えんそう）",
       link: "/youtube",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
