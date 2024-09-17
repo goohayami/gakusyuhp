@@ -1,6 +1,6 @@
 import { YouTubeEmbed } from "@next/third-parties/google";
 
-const recorder = () => {
+const youtube = () => {
   return (
     <div>
       <h1 className="rounded-full bg-gray-800 text-white flex justify-center my-4 py-2">
@@ -19,4 +19,4 @@ const recorder = () => {
   );
 };
 
-export default recorder;
+export default youtube;

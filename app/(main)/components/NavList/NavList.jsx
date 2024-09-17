@@ -23,7 +23,7 @@ const NavList = () => {
     },
     {
       id: 4,
-      label: "リコーダー",
+      label: "リコーダー（よろこびのうた）",
       link: "/recorder",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
