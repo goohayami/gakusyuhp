@@ -8,7 +8,7 @@ const NavItem = ({ label, link, icon }) => {
     <div>
       <Link
         href={link}
-        className={`flex p-4 items-center w-full hover:bg-gray-700 font-midium ${
+        className={`flex p-4 items-center w-full hover:bg-gray-700 font-midium  whitespace-nowrap ${
           pathname === link ? "bg-gray-600 border-r-4 border-r-yellow-200" : ""
         }`}
       >
