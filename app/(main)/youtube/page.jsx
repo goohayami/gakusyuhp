@@ -9,7 +9,7 @@ const youtube = () => {
       <div>
         <YouTubeEmbed
           className="flex justify-center"
-          videoid="WRxpi-jed_k"
+          videoid="lFnU_xxEgjQ"
           width={700}
           height={700}
           params="controls=1"
