@@ -10,8 +10,8 @@ const page = () => {
         コナンメインテーマ　けんばんがくふ
       </h1>
 
-      <Image src={imagePath_1} width={1000} height={200} alt={"ga"} />
-      <Image src={imagePath_2} width={1000} height={200} alt={"ga"} />
+      <Image src={imagePath_1} width={1000} height={200} alt={"楽譜"} />
+      <Image src={imagePath_2} width={1000} height={200} alt={"楽譜"} />
     </div>
   );
 };
