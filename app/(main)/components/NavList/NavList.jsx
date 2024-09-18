@@ -28,6 +28,12 @@ const NavList = () => {
       link: "/chocho",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
+    {
+      id: 5,
+      label: "メリーさんのひつじ（リコーダー）",
+      link: "/merry",
+      icon: <MdOutlineQueueMusic className="size-5" />,
+    },
   ];
   return (
     <div className="mt-18">
