@@ -12,8 +12,14 @@ const NavList = () => {
 
     {
       id: 2,
-      label: "名探偵コナン メインテーマ（けんばん）",
+      label: "名探偵コナン メインテーマ",
       link: "/conan",
+      icon: <MdOutlineQueueMusic className="size-5" />,
+    },
+    {
+      id: 6,
+      label: "コナン　けんばんⒶⒷⒸ練習用",
+      link: "/kenban-a",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
     {
