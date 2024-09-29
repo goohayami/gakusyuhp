@@ -18,10 +18,17 @@ const NavList = () => {
     },
     {
       id: 6,
-      label: "コナン　けんばんⒶⒷⒸ練習用",
+      label: "コナン　ソプラノ・けんばん練習用",
       link: "/kenban-a",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
+    {
+      id: 6,
+      label: "コナン　ソプラノ・テナーけんばん見本",
+      link: "/kenban-mihon",
+      icon: <MdOutlineQueueMusic className="size-5" />,
+    },    
+    
     {
       id: 3,
       label: "よろこびのうた（リコーダー）",
@@ -40,6 +47,7 @@ const NavList = () => {
       link: "/merry",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
+    
   ];
   return (
     <div className="mt-18">
