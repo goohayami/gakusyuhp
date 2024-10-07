@@ -2,7 +2,7 @@ import { YouTubeEmbed } from "@next/third-parties/google";
 import Image from "next/image";
 
 const kenbanMihon = () => {
-  const imagePath_1 = "/conan-soptena.jpg";
+  const imagePath_1 = "/conan-soptena.png";
   return (
     <div>
       <h1 className="rounded-full bg-gray-800 text-white flex justify-center my-4 py-2">
