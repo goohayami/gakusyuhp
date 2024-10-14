@@ -1,12 +1,12 @@
 import { YouTubeEmbed } from "@next/third-parties/google";
 import Image from "next/image";
 
-const kenbanMihon = () => {
-  const imagePath_1 = "/conan-soptena.png";
+const kenbandef = () => {
+  const imagePath_1 = "/conan-def.png";
   return (
     <div>
       <h1 className="rounded-full bg-gray-800 text-white flex justify-center my-4 py-2">
-        名探偵コナン　メインテーマ　けんばんⒶⒷⒸ
+        名探偵コナン　メインテーマ　けんばんⒹⒺⒻ
       </h1>
       <p className="text-gray-800 font-bold flex justify-center mb-2">
         がくふデモ
@@ -14,7 +14,7 @@ const kenbanMihon = () => {
       <div>
         <YouTubeEmbed
           className="flex justify-center"
-          videoid="tgwVMV8rCAY"
+          videoid="PZ4G0YN2CCc"
           width={700}
           height={450}
           params="controls=1"
@@ -30,7 +30,7 @@ const kenbanMihon = () => {
           params="controls=1"
         /> */}
         <p className="text-gray-800 font-bold flex justify-center mb-2">
-          名探偵コナン　メインテーマⒶⒷⒸがくふ（けんばん）
+          名探偵コナン　メインテーマⒹⒺⒻがくふ（けんばん）
         </p>
         <Image src={imagePath_1} width={700} height={500} alt={"楽譜"} />
       </div>
@@ -38,5 +38,5 @@ const kenbanMihon = () => {
   );
 };
 
-export default kenbanMihon;
+export default kenbandef;
 
