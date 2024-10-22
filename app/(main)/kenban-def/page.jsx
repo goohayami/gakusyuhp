@@ -14,7 +14,7 @@ const kenbandef = () => {
       <div>
         <YouTubeEmbed
           className="flex justify-center"
-          videoid="PZ4G0YN2CCc"
+          videoid="f6CRcqiDr9c"
           width={700}
           height={450}
           params="controls=1"
