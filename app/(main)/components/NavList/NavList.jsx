@@ -29,12 +29,12 @@ const NavList = () => {
       icon: <MdOutlineQueueMusic className="size-5" />,
     }, 
     {
-      id: 6,
-      label: "コナン　ソプラノ・けんばん練習用",
-      link: "/kenban-a",
+      id: 8,
+      label: "コナン　けんばんラスト",
+      link: "/kenban-last",
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
-    {
+       {
       id: 3,
       label: "よろこびのうた（リコーダー）",
       link: "/yorokobi",
