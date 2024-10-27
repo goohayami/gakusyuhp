@@ -21,7 +21,7 @@ const tor_xy_abc = () => {
         />
        
         <p className="text-gray-800 font-bold flex justify-center mb-2">
-          名探偵コナン　メインテーマⒹⒺⒻがくふ（トロンボーン・木琴）
+          名探偵コナン　メインテーマⒶⒷⒸがくふ（トロンボーン・木琴）
         </p>
         <Image src={imagePath_1} width={700} height={500} alt={"楽譜"} />
       </div>

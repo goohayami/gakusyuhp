@@ -35,6 +35,12 @@ const NavList = () => {
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
     {
+      id: 10,
+      label: "コナン（トロンボーン・木琴）ⒹⒺⒻ",
+      link: "/tor-def",
+      icon: <MdOutlineQueueMusic className="size-5" />,
+    },
+    {
       id: 8,
       label: "コナン　けんばんラスト",
       link: "/kenban-last",

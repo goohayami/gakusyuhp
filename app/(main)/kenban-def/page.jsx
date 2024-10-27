@@ -19,16 +19,7 @@ const kenbandef = () => {
           height={450}
           params="controls=1"
         />
-        {/* <p className="text-gray-800 font-bold flex justify-center mb-2">
-          けんばんデモ
-        </p>
-        <YouTubeEmbed
-          className="flex justify-center"
-          videoid="J6m26a0QVm0"
-          width={700}
-          height={450}
-          params="controls=1"
-        /> */}
+       
         <p className="text-gray-800 font-bold flex justify-center mb-2">
           名探偵コナン　メインテーマⒹⒺⒻがくふ（けんばん）
         </p>
