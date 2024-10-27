@@ -41,6 +41,12 @@ const NavList = () => {
       icon: <MdOutlineQueueMusic className="size-5" />,
     },
     {
+      id: 11,
+      label: "コナン　ダンス前かんそう",
+      link: "/before-dance",
+      icon: <MdOutlineQueueMusic className="size-5" />,
+    },
+    {
       id: 8,
       label: "コナン　けんばんラスト",
       link: "/kenban-last",
